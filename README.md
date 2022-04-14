@@ -1,3 +1,3 @@
-# Java, Spring Boot, Kubernetes, Docker
+# Kubernetes, Docker, DevOps, Java, Spring Boot
 
-Kubernetes
+Kubernetes, Docker, DevOps, Java, Spring Boot
