@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: envpod
+  labels:
+    app: frontend
+spec:
+  containers:
+  - name: envpod
+    image: mimaraslan/env:latest
+    ports:
+    - containerPort: 80
+    env:
+      - name: USER
+        value: "Mimar"
+      - name: database
+        value: "testdb.example.com"
